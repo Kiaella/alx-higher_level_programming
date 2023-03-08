@@ -1,5 +1,5 @@
-#!/usr/env/python3
-add = _import_ ('10-add').add
+#!/usr/bin/env python3
+add = __import__('10-add').add
 
 print(add(1, 2))
 print(add(98, 0))
